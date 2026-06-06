@@ -1,0 +1,45 @@
+{
+  "asOf": "2026-06-06T06:00:00Z",
+  "program": "orbital ISR and resilient-comms mission portfolio",
+  "missions": [
+    {
+      "missionId": "ORBITAL-DAWN-4",
+      "mission": "smallsat launch and first-orbit checkout",
+      "launchWindowDays": 9,
+      "propulsionAnomalies": 2,
+      "thermalMarginPercent": 11,
+      "commsLossMinutes": 18,
+      "guidanceSoftwareFindings": 4,
+      "supplierExceptionCount": 3,
+      "crewSafetyWaivers": 1,
+      "owner": "Mission assurance",
+      "nextAction": "Hold launch-readiness review until propulsion anomaly closure and supplier exception proof are attached."
+    },
+    {
+      "missionId": "SKYSHIELD-2",
+      "mission": "high-altitude comms relay pilot",
+      "launchWindowDays": 24,
+      "propulsionAnomalies": 0,
+      "thermalMarginPercent": 24,
+      "commsLossMinutes": 9,
+      "guidanceSoftwareFindings": 2,
+      "supplierExceptionCount": 1,
+      "crewSafetyWaivers": 0,
+      "owner": "Flight software",
+      "nextAction": "Keep in constrained readiness while guidance findings are regression-tested against the next comms-relay profile."
+    },
+    {
+      "missionId": "RANGE-HAWK-7",
+      "mission": "range telemetry and recovery readiness",
+      "launchWindowDays": 14,
+      "propulsionAnomalies": 1,
+      "thermalMarginPercent": 16,
+      "commsLossMinutes": 31,
+      "guidanceSoftwareFindings": 3,
+      "supplierExceptionCount": 2,
+      "crewSafetyWaivers": 0,
+      "owner": "Range operations",
+      "nextAction": "Reset range-readiness posture after comms-loss windows and recovery telemetry owners are reconciled."
+    }
+  ]
+}
