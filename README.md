@@ -22,6 +22,28 @@ It is built to create clear portfolio signal across C++, Rust, Python, and TypeS
 - TypeScript scoring library, tests, CLI, and static web board.
 - Synthetic fixtures, docs, screenshots, and GitHub Pages release rail.
 
+## Product depth
+
+Aerospace Mission Readiness Board turns fragmented mission-assurance evidence into a launch-readiness decision surface. It is designed for program leaders, mission owners, platform engineers, safety reviewers, supplier managers, and diligence readers who need to see whether a mission lane is ready, watch-only, or blocked before a launch-window or board-review moment.
+
+For non-technical readers, it answers: where is the mission exposed, which evidence gap is driving the hold, what owner owns the next action, and what story can leadership responsibly tell? For technical reviewers, it shows a multi-language implementation pattern: C++ scoring, Rust normalization, Python narrative pack generation, TypeScript tests/CLI, static Pages output, fixtures, screenshots, and validation commands.
+
+## What these repos have in common
+
+This repo follows the Kinetic Gain control-plane pattern:
+
+- name the operational ambiguity instead of hiding it inside screenshots or generic landing-page copy
+- expose the decision surface as UI, JSON payloads, docs, screenshots, and validation commands
+- connect GTM value, product narrative, technical proof, and executive review into the same public artifact
+- keep public demos synthetic and safe while preserving enough structure to show how a real deployment would work
+
+## Operating workflow
+
+1. Score mission lanes against launch-window, telemetry, supplier, safety, and owner-readiness evidence.
+2. Normalize raw mission findings into reviewable readiness events.
+3. Generate a board-readable readiness pack that separates go, watch, and hold decisions.
+4. Publish only synthetic demonstration data while keeping the artifact structure realistic enough for diligence review.
+
 ## Routes
 
 - `/` - static public board
